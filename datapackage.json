@@ -1,0 +1,122 @@
+{
+  "name": "crypto-exchange-licence-status",
+  "title": "Crypto exchange licence status by country (ExchangeCatalogue)",
+  "description": "Which of 27 crypto exchanges may serve people in 32 countries (the EU 27, Iceland, Liechtenstein, Norway, the UK and India), with the company, regulator, licence ID or LEI, date checked and source. From official registers. CC BY 4.0.",
+  "homepage": "https://exchangecatalogue.com/crypto-exchange-licences/",
+  "version": "1.0.0",
+  "created": "2026-09-29",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "ExchangeCatalogue",
+      "path": "https://exchangecatalogue.com/",
+      "role": "author"
+    },
+    {
+      "title": "Catalinq LLC",
+      "role": "publisher"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ec-crypto-licence-status-v1-2026-09-29",
+      "path": "ec-crypto-licence-status-v1-2026-09-29.csv",
+      "description": "One row per exchange per country.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 293367,
+      "hash": "sha256:5ccb431ff2631eb6279d80f4813625bc140ffaf74a2fab7d65c3c6465cc5f692",
+      "schema": {
+        "fields": [
+          {
+            "name": "country_code",
+            "description": "ISO 3166-1 two-letter code (GB for the UK, GR for Greece).",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "description": "Country name.",
+            "type": "string"
+          },
+          {
+            "name": "exchange",
+            "description": "Exchange brand name.",
+            "type": "string"
+          },
+          {
+            "name": "exchange_review_url",
+            "description": "Our review of the exchange.",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "description": "licensed, passported, registered, not_passported, restricted_by_exchange, warning, blocked, not_on_register or unclear. See the list above.",
+            "type": "string"
+          },
+          {
+            "name": "legal_entity",
+            "description": "The company that holds the licence or registration. For EU rows, the EU company you would deal with.",
+            "type": "string"
+          },
+          {
+            "name": "regulator",
+            "description": "The regulator that granted it, with its country.",
+            "type": "string"
+          },
+          {
+            "name": "licence_id",
+            "description": "The LEI (EU) or the FCA firm reference number (UK), when there is one.",
+            "type": "string"
+          },
+          {
+            "name": "licence_id_type",
+            "description": "LEI or FRN. Empty when there is no ID.",
+            "type": "string"
+          },
+          {
+            "name": "home_country",
+            "description": "For MiCA licences, the EU or EEA country that granted the licence.",
+            "type": "string"
+          },
+          {
+            "name": "mica_services",
+            "description": "MiCA service codes from the ESMA register, a to j (see below).",
+            "type": "string"
+          },
+          {
+            "name": "effective_date",
+            "description": "Date the licence or registration took effect (YYYY-MM-DD).",
+            "type": "date"
+          },
+          {
+            "name": "source_name",
+            "description": "The record we used.",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "description": "Link to that record.",
+            "type": "string"
+          },
+          {
+            "name": "checked_on",
+            "description": "Date we checked (YYYY-MM-DD).",
+            "type": "date"
+          },
+          {
+            "name": "note",
+            "description": "Plain-English explanation of the row.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

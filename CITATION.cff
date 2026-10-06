@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to https://exchangecatalogue.com/crypto-exchange-licences/"
+type: dataset
+title: "Crypto exchange licence status by country"
+version: "1.0.0"
+date-released: "2026-09-29"
+license: CC-BY-4.0
+url: "https://exchangecatalogue.com/crypto-exchange-licences/"
+abstract: "Which of 27 crypto exchanges may serve people in 32 countries (the EU 27, Iceland, Liechtenstein, Norway, the UK and India), with the company, regulator, licence ID or LEI, date checked and source. From official registers. CC BY 4.0."
+keywords:
+  - "MiCA"
+  - "CASP"
+  - "crypto regulation"
+  - "crypto exchanges"
+  - "licensing"
+  - "ESMA"
+  - "FCA"
+  - "FIU-IND"
+  - "compliance"
+  - "open data"
+authors:
+  - name: "ExchangeCatalogue"
+    website: "https://exchangecatalogue.com/"
+    email: "info@exchangecatalogue.com"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23195566"
+    description: "All versions (concept DOI)"
+  - type: doi
+    value: "10.5281/zenodo.23195567"
+    description: "Version 1.0.0 (29 September 2026)"
